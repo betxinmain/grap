@@ -1,0 +1,53 @@
+name: RideAssistPro
+options:
+  bundleIdPrefix: com.rideassistpro
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "15.0"
+targets:
+  RideAssistPro:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: App
+      - path: Core
+      - path: Models
+      - path: Services
+      - path: ViewModels
+      - path: Views
+      - path: Resources/Assets.xcassets
+      - path: Resources/PrivacyInfo.xcprivacy
+    info:
+      path: Resources/Info.plist
+    entitlements:
+      path: Resources/RideAssistPro.entitlements
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.rideassistpro.app
+        SWIFT_VERSION: "5.9"
+        TARGETED_DEVICE_FAMILY: "1"
+        INFOPLIST_FILE: Resources/Info.plist
+  RideAssistProWidgetExtension:
+    type: app-extension
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: Widgets
+      - path: Core/Constants/AppConstants.swift
+      - path: Core/Extensions/Formatters.swift
+      - path: Models/AreaPerformance.swift
+    entitlements:
+      path: Resources/RideAssistPro.entitlements
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.rideassistpro.app.widget
+        SWIFT_VERSION: "5.9"
+  RideAssistProTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: Tests
+    dependencies:
+      - target: RideAssistPro

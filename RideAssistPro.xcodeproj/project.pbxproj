@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000001 /* RideAssistProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000001 /* RideAssistProApp.swift */; };
+		A1000002 /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000002 /* AppStateManager.swift */; };
+		A1000003 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000003 /* AppConstants.swift */; };
+		A1000004 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000004 /* Formatters.swift */; };
+		A1000005 /* ServiceProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000005 /* ServiceProtocols.swift */; };
+		A1000006 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000006 /* NetworkMonitor.swift */; };
+		A1000007 /* DriverProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000007 /* DriverProfile.swift */; };
+		A1000008 /* RideCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000008 /* RideCriteria.swift */; };
+		A1000009 /* RideCandidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000009 /* RideCandidate.swift */; };
+		A1000010 /* RideEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000010 /* RideEvaluation.swift */; };
+		A1000011 /* RideHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000011 /* RideHistory.swift */; };
+		A1000012 /* DriverLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000012 /* DriverLocation.swift */; };
+		A1000013 /* ShiftRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000013 /* ShiftRecord.swift */; };
+		A1000014 /* IncomeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000014 /* IncomeRecord.swift */; };
+		A1000015 /* AreaPerformance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000015 /* AreaPerformance.swift */; };
+		A1000016 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000016 /* StorageService.swift */; };
+		A1000017 /* RideScoringService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000017 /* RideScoringService.swift */; };
+		A1000018 /* IncomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000018 /* IncomeService.swift */; };
+		A1000019 /* DemandAnalysisService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000019 /* DemandAnalysisService.swift */; };
+		A1000020 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000020 /* LocationService.swift */; };
+		A1000021 /* ShiftService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000021 /* ShiftService.swift */; };
+		A1000022 /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000022 /* ExportService.swift */; };
+		A1000023 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000023 /* NotificationService.swift */; };
+		A1000024 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000024 /* DashboardViewModel.swift */; };
+		A1000025 /* OpportunityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000025 /* OpportunityViewModel.swift */; };
+		A1000026 /* RideFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000026 /* RideFilterViewModel.swift */; };
+		A1000027 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000027 /* LocationViewModel.swift */; };
+		A1000028 /* AnalyticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000028 /* AnalyticsViewModel.swift */; };
+		A1000029 /* ShiftViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000029 /* ShiftViewModel.swift */; };
+		A1000030 /* SplashAndOnboardingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000030 /* SplashAndOnboardingViews.swift */; };
+		A1000031 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000031 /* DashboardView.swift */; };
+		A1000032 /* OpportunityEngineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000032 /* OpportunityEngineView.swift */; };
+		A1000033 /* RideFilterAndScoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000033 /* RideFilterAndScoringView.swift */; };
+		A1000034 /* SmartLocationAssistantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000034 /* SmartLocationAssistantView.swift */; };
+		A1000035 /* PersonalDemandAnalyticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000035 /* PersonalDemandAnalyticsView.swift */; };
+		A1000036 /* ShiftAndIncomeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000036 /* ShiftAndIncomeViews.swift */; };
+		A1000037 /* HistoryManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000037 /* HistoryManagementView.swift */; };
+		A1000038 /* OfficialGrabFeaturesCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000038 /* OfficialGrabFeaturesCenterView.swift */; };
+		A1000039 /* ShortcutAndQuickResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000039 /* ShortcutAndQuickResponseView.swift */; };
+		A1000040 /* SettingsAndSafetyViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000040 /* SettingsAndSafetyViews.swift */; };
+		A1000041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1000041 /* Assets.xcassets */; };
+		A1000042 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = F1000042 /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F0000001 /* RideAssistPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RideAssistPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1000001 /* RideAssistProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/RideAssistProApp.swift; sourceTree = "<group>"; };
+		F1000002 /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App/AppStateManager.swift; sourceTree = "<group>"; };
+		F1000003 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Constants/AppConstants.swift; sourceTree = "<group>"; };
+		F1000004 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Extensions/Formatters.swift; sourceTree = "<group>"; };
+		F1000005 /* ServiceProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Protocols/ServiceProtocols.swift; sourceTree = "<group>"; };
+		F1000006 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core/Utilities/NetworkMonitor.swift; sourceTree = "<group>"; };
+		F1000007 /* DriverProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/DriverProfile.swift; sourceTree = "<group>"; };
+		F1000008 /* RideCriteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/RideCriteria.swift; sourceTree = "<group>"; };
+		F1000009 /* RideCandidate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/RideCandidate.swift; sourceTree = "<group>"; };
+		F1000010 /* RideEvaluation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/RideEvaluation.swift; sourceTree = "<group>"; };
+		F1000011 /* RideHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/RideHistory.swift; sourceTree = "<group>"; };
+		F1000012 /* DriverLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/DriverLocation.swift; sourceTree = "<group>"; };
+		F1000013 /* ShiftRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/ShiftRecord.swift; sourceTree = "<group>"; };
+		F1000014 /* IncomeRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/IncomeRecord.swift; sourceTree = "<group>"; };
+		F1000015 /* AreaPerformance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/AreaPerformance.swift; sourceTree = "<group>"; };
+		F1000016 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/StorageService.swift; sourceTree = "<group>"; };
+		F1000017 /* RideScoringService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/RideScoringService.swift; sourceTree = "<group>"; };
+		F1000018 /* IncomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/IncomeService.swift; sourceTree = "<group>"; };
+		F1000019 /* DemandAnalysisService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/DemandAnalysisService.swift; sourceTree = "<group>"; };
+		F1000020 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/LocationService.swift; sourceTree = "<group>"; };
+		F1000021 /* ShiftService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/ShiftService.swift; sourceTree = "<group>"; };
+		F1000022 /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/ExportService.swift; sourceTree = "<group>"; };
+		F1000023 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/NotificationService.swift; sourceTree = "<group>"; };
+		F1000024 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/DashboardViewModel.swift; sourceTree = "<group>"; };
+		F1000025 /* OpportunityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/OpportunityViewModel.swift; sourceTree = "<group>"; };
+		F1000026 /* RideFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/RideFilterViewModel.swift; sourceTree = "<group>"; };
+		F1000027 /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/LocationViewModel.swift; sourceTree = "<group>"; };
+		F1000028 /* AnalyticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/AnalyticsViewModel.swift; sourceTree = "<group>"; };
+		F1000029 /* ShiftViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/ShiftViewModel.swift; sourceTree = "<group>"; };
+		F1000030 /* SplashAndOnboardingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Dashboard/SplashAndOnboardingViews.swift; sourceTree = "<group>"; };
+		F1000031 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Dashboard/DashboardView.swift; sourceTree = "<group>"; };
+		F1000032 /* OpportunityEngineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Opportunity/OpportunityEngineView.swift; sourceTree = "<group>"; };
+		F1000033 /* RideFilterAndScoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/RideFilter/RideFilterAndScoringView.swift; sourceTree = "<group>"; };
+		F1000034 /* SmartLocationAssistantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Location/SmartLocationAssistantView.swift; sourceTree = "<group>"; };
+		F1000035 /* PersonalDemandAnalyticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Analytics/PersonalDemandAnalyticsView.swift; sourceTree = "<group>"; };
+		F1000036 /* ShiftAndIncomeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Shift/ShiftAndIncomeViews.swift; sourceTree = "<group>"; };
+		F1000037 /* HistoryManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/History/HistoryManagementView.swift; sourceTree = "<group>"; };
+		F1000038 /* OfficialGrabFeaturesCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/OfficialGrabGuide/OfficialGrabFeaturesCenterView.swift; sourceTree = "<group>"; };
+		F1000039 /* ShortcutAndQuickResponseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ShortcutGuide/ShortcutAndQuickResponseView.swift; sourceTree = "<group>"; };
+		F1000040 /* SettingsAndSafetyViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/Settings/SettingsAndSafetyViews.swift; sourceTree = "<group>"; };
+		F1000041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		F1000042 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		F1000043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Resources/Info.plist; sourceTree = "<group>"; };
+		F1000044 /* RideAssistPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Resources/RideAssistPro.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		G0000001 = {
+			isa = PBXGroup;
+			children = (
+				F1000001, F1000002, F1000003, F1000004, F1000005, F1000006,
+				F1000007, F1000008, F1000009, F1000010, F1000011, F1000012,
+				F1000013, F1000014, F1000015, F1000016, F1000017, F1000018,
+				F1000019, F1000020, F1000021, F1000022, F1000023, F1000024,
+				F1000025, F1000026, F1000027, F1000028, F1000029, F1000030,
+				F1000031, F1000032, F1000033, F1000034, F1000035, F1000036,
+				F1000037, F1000038, F1000039, F1000040, F1000041, F1000042,
+				F1000043, F1000044, G0000002
+			);
+			sourceTree = "<group>";
+		};
+		G0000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0000001 /* RideAssistPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		T0000001 /* RideAssistPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0000002 /* Build configuration list for PBXNativeTarget "RideAssistPro" */;
+			buildPhases = (
+				P0000001 /* Sources */,
+				P0000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RideAssistPro;
+			productName = RideAssistPro;
+			productReference = F0000001 /* RideAssistPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		P0000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = C0000001 /* Build configuration list for PBXProject "RideAssistPro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = vi;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				vi,
+				en,
+				Base,
+			);
+			mainGroup = G0000001;
+			productRefGroup = G0000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				T0000001 /* RideAssistPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		P0000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000041 /* Assets.xcassets in Resources */,
+				A1000042 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		P0000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001, A1000002, A1000003, A1000004, A1000005, A1000006,
+				A1000007, A1000008, A1000009, A1000010, A1000011, A1000012,
+				A1000013, A1000014, A1000015, A1000016, A1000017, A1000018,
+				A1000019, A1000020, A1000021, A1000022, A1000023, A1000024,
+				A1000025, A1000026, A1000027, A1000028, A1000029, A1000030,
+				A1000031, A1000032, A1000033, A1000034, A1000035, A1000036,
+				A1000037, A1000038, A1000039, A1000040
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B0000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		B0000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		B0000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Resources/RideAssistPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 100;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rideassistpro.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Debug;
+		};
+		B0000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Resources/RideAssistPro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 100;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rideassistpro.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0000001 /* Build configuration list for PBXProject "RideAssistPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0000001 /* Debug */,
+				B0000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0000002 /* Build configuration list for PBXNativeTarget "RideAssistPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0000003 /* Debug */,
+				B0000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = P0000000 /* Project object */;
+}
